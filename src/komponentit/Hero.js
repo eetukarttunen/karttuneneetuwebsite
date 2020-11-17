@@ -6,7 +6,7 @@ import './Hero.css';
 function Hero() {
     return (
         <div className='hero-container'>
-          <video src='/videos/Taustavideo.mp4' autoPlay loop muted />
+          <video src='/taustavideo.mp4' autoPlay loop muted />
           <h1>EETU KARTTUNEN</h1>
           <p>Tietojenkäsittelytieteen opiskelija</p>
           <div className='hero-btns'>
