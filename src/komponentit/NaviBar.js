@@ -32,7 +32,6 @@ function NaviBar() {
             <div className ='navibar-container'>
                 <Link to='/' className='navibar-logo' onClick={closeMobileMenu}>
                 EETU
-                <i class='logo192.png' />
                 </Link>  
                 
                 <div className='menu-icon' onClick={handleClick}> 

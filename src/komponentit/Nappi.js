@@ -25,7 +25,7 @@ const checkButtonSize = SIZES.includes(buttonSize)
 
 return(
     // buttonin sisälle tulevat renderöidään
-    <Link to ='https://www.linkedin.com/in/eetu-karttunen-912631160' className='btn-mobile'>
+    <Link to ='/kuka' className='btn-mobile'>
               <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
