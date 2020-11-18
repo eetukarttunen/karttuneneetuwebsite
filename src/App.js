@@ -6,11 +6,15 @@ import Osaaminen from './komponentit/pages/Osaaminen';
 import Kuka from './komponentit/pages/Kuka';
 import CV from './komponentit/pages/CV';
 import './App.css';
+import ScrollToTop from './komponentit/ScrollToTop';
+
+
 
 function App() {
   return (
     <>
     <Router>
+    <ScrollToTop/>
       <NaviBar />
       <Switch>
         <Route path='/' exact component=
@@ -22,6 +26,7 @@ function App() {
         <Route path='/cv' component=
         {CV} />
       </Switch>
+      
     </Router>
     </>
   );

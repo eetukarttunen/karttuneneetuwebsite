@@ -5,8 +5,7 @@ import {Link} from 'react-router-dom';
 function Alapalkki() {
     return (
     <div className='alapalkki-container'>
-        <div>GitHub: @eetukarttunen</div>
-        <div>Linkedin: @eetukarttunen</div>
+        <h1>github: eetukarttunen</h1>
 
     </div>
         )

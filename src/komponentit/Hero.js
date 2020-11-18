@@ -8,7 +8,7 @@ function Hero() {
         <div className='hero-container'>
           <video src='/taustavideo.mp4' autoPlay loop muted />
           <h1>EETU KARTTUNEN</h1>
-          <p>Tietojenkäsittelytieteen opiskelija</p>
+          <p>Yrityksesi tuleva asiantuntija?</p>
           <div className='hero-btns'>
             <Nappi
               className='btns'

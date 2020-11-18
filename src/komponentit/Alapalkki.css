@@ -1,14 +1,24 @@
 .alapalkki-container {
-    background-color: #ffffff;
-    padding: 4rem 0 2rem 0;
+    height: 10vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-self: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(14, 14, 14, 0.76);
+    object-fit: contain;
 }
 
-.alapalkki-container > div {
-    color: rgb(0, 0, 0);
-    font-size: 10px;
+  .alapalkki-container > h1 {
+    color: rgb(66, 66, 66);
+    font-size: 20px;
     margin-top: 0px;
   }
+
+  @media screen and (max-width: 768px) {
+    .alapalkki-container > h1 {
+      font-size: 50px;
+      margin-top: 0px;
+
+    }
+}

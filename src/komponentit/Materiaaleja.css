@@ -1,13 +1,14 @@
 .materiaaleja-container {
-    background-color: #ffffffb4;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-    align-items: center;
-    object-fit: contain;
-
+  background-color: #ffffffb4;
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.76);
+  object-fit: contain;    
+    
   }
 .materiaaleja-container > h1 {
     color: rgb(0, 0, 0);

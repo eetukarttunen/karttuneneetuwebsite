@@ -1,5 +1,5 @@
 :root{
-    --primary: #fff;
+    --primary: rgb(255, 255, 255);
 }
 
 .btn {
@@ -12,7 +12,7 @@
 
 .btn--primary {
     background-color: var(--primary); /*Hyödynnetään aiemmin luotua uudelleen*/
-    color: #000000;
+    color: #ffffff;
     border: 1px solid var(--primary)
 }
 
@@ -27,20 +27,20 @@ transition: all 0.3s ease-out;
 .btn--medium{
     padding: 8px 20px;
     font-size: 20px;
-    background: #000000;
+    background: rgb(44, 44, 44);;
 }
 
 .btn--large {
-    background-color: white;
+    background-color:rgb(255, 255, 255);
     padding: 12px 26px;
     font-size: 20px;
-    color: black;
+    color: rgb(44, 44, 44);
 }
 .btn--medium:hover{
     transition: all 0.3s ease-out;
     background: transparent;
     color: #ffffff;
-    background: rgb(113, 198, 255);
+    background:rgb(167, 227, 255);
     transition: 250ms;
 
 }

@@ -22,7 +22,7 @@
   }
   
   .navibar-logo {
-    color: rgb(0, 0, 0);
+    color: rgb(44, 44, 44);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -53,7 +53,7 @@
   }
   
   .navi-links {
-    color: rgb(0, 0, 0);
+    color: rgb(44, 44, 44);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -62,12 +62,14 @@
   }
   
   .navi-links:hover {
-    border-bottom: 4px solid #6fb9ff;
+    color: rgb(167, 227, 255);
+    /**border-bottom: 4px solid #6fb9ff; */
+
     transition: all 0.2s ease-out;
   }
-  
+  /** Kolme viivaa pienessä näkymässä */
   .fa-bars {
-    color: rgb(0, 0, 0);
+    color: rgb(44, 44, 44);
   }
   
   .navi-links-mobile {
@@ -96,7 +98,7 @@
     }
   
     .navi-menu.active {
-      box-shadow: inset 0 0 0 1000px rgb(255, 255, 255);
+      box-shadow: inset 0 0 0 1000px rgb(0, 0, 0);
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -111,8 +113,8 @@
     }
   
     .navi-links:hover {
-      background-color: rgb(255, 255, 255);
-      color: #000000;
+      background-color: rgb(44, 44, 44);
+      color: #ffffff;
       border-radius: 0;
     }
   
@@ -134,7 +136,7 @@
     }
   
     .fa-times {
-      color: rgb(0, 0, 0);
+      color:rgb(44, 44, 44);
       font-size: 2rem;
     }
   
@@ -147,7 +149,7 @@
       text-decoration: none;
       font-size: 1.5rem;
       background-color: transparent;
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       padding: 14px 20px;
       border: 1px solid rgb(0, 0, 0);
       transition: all 0.3s ease-out;
@@ -155,7 +157,7 @@
   
     .navi-links-mobile:hover {
       background: rgb(255, 255, 255);
-      color: #000000;
+      color: #ffffff;
       transition: 250ms;
     }
   }
